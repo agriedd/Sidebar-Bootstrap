@@ -2,7 +2,7 @@
 <!-- flex-md-nowrap flex-wrap kalo sm flex row untuk md ke atas dan column untuk sm -->
   <div class="d-flex flex-md-nowrap flex-wrap flex-md-row flex-column">
     <!-- sticky agar tetap pada posisi ketika discroll -->
-    <div class="border-bottom sticky-top col-lg-3 col-md-4 h-100 bg-white">
+    <div class="border-bottom sticky-top col-lg-3 col-md-4 h-100 bg-white" style="max-height: 100vh; overflow: auto">
       <div class="p-3">
         <!-- navbar + -->
         <nav class="navbar navbar-expand-md bg-white">
